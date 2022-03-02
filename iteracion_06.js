@@ -5,3 +5,11 @@ const toys = [
     { id: 40, name: 'El gato con Guantes' },
     { id: 40, name: 'El gato felix' }
 ]
+
+for (let toy of toys) {
+    if (toy.name.includes("gato")) {
+        toys.splice(toys.indexOf(toy));
+    }
+} console.log(toys)
+
+
