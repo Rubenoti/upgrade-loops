@@ -4,3 +4,7 @@ const alien = {
     planet: 'Eden',
     weight: '259kg'
 }
+
+for (let item in alien) {
+    console.log(item + ":" + alien[item])
+}
